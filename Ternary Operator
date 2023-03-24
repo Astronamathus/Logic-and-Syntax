@@ -1,0 +1,3 @@
+Datatype variable = (condition)?(True_condition):(False_condition);
+Ex. 
+String result = (num_1>num_2)?("True"):("False"); // Reutrns True if num_1 > num_2, else returns false
