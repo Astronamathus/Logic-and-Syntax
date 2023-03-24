@@ -1,0 +1,13 @@
+import java.io.*;
+class Streams
+{
+  public static void main()
+  {
+    InputStreamReader isr = new InputStreamReader(System.in);
+    BufferedReader br = new BufferedReader(isr);
+    String data = br.readLine();
+    int a = Integer.parseInt(data);
+    float f = Float.parseFloat(data);
+    char c = (char)br.read();
+  }
+}
