@@ -1,0 +1,18 @@
+if(condition)
+{
+  True_condition;
+}
+else
+{
+  False_condition;
+}
+
+Ex. 
+if(num_1 > num_2)
+{
+  String result = "True";
+}
+else
+{
+  String result = "False";
+}
