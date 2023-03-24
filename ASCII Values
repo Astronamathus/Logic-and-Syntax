@@ -1,0 +1,10 @@
+ASCII Character Values
+
+A - 65 //For conversion from uppercase to lowercase, add 32 to the uppercase value
+Z - 90
+
+a - 97 //For conversion from lowercase to uppercase, subtract 32 from the uppercase value
+z - 122
+
+0 - 48
+9 - 57
