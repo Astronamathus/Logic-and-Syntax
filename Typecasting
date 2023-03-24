@@ -1,0 +1,14 @@
+Integer to Char
+
+int a = 67;
+char c = (char)a;
+
+Char to Integer
+
+char c = 'A';
+int a = (int)c;
+
+Double to Integer
+
+double d = 200.06;
+int a = (int)d; //This will result in loss of two decimal places as integer does not support decimal values
