@@ -1,0 +1,14 @@
+import java.util.Scanner; //Can also use import java.util.*;
+class Scanner
+{
+  public static void main()
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Example: ");
+    int a = sc.nextInt();
+    String s = sc.next();
+    char c = sc.next().charAt(0);
+    float f = sc.nextFloat();
+    double d = sc.nextDouble();
+  }
+}
