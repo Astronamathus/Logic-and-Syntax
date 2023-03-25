@@ -99,3 +99,26 @@
             }
             System.out.println(" ");
         }
+        
+-----------------------------------------------------------------------
+
+     *
+    ***
+   *****
+  *******
+ *********
+ 
+        int i, j, row = 5, k = 1, w;        
+        for (i=0; i<row; i++)   
+        {
+            for(w=i;w<row;w++)
+            {
+                System.out.print(" ");
+            }
+            for (j=1; j<=k; j++)   
+            {   
+                System.out.print("*");
+            } 
+            System.out.println();
+            k+=2;
+        }
