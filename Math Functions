@@ -1,0 +1,59 @@
+The following are math functions that may be executed on certain numbers to get a desired out put:
+
+The syntax for executing funtions are 
+double a = 100.06;
+Math.round(a); // Returns 100
+
+round()- It rounds up a number with decimal values to the closest whole value
+It can accept double and float
+It can return either long or int 
+Example- 
+2.3  becomes 2
+-2.3 becomes -2
+2.5  becomes 3
+-2.5 becomes -3
+2.7  becomes 3
+-2.7 becomes -3
+-0.1 becomes 0
+-0.0 becomes 0
+
+------------------------------------------------------------------------------
+
+ceil() - It rounds the number to the next higher whole value, or the ceiling value
+It can accept double and float
+It can return either double or float
+Example-
+2.3  becomes 3.0
+-2.3 becomes -2.0 
+2.5  becomes 3.0 
+-2.5 becomes -2.0 //This considers that -2 is greater than -3, it recognizes the negative sign
+2.7  becomes 3.0
+-2.7 becomes -2.0
+-0.1 becomes 0.0
+-0.0 becomes 0.0
+
+------------------------------------------------------------------------------
+
+floor() - It rounds the number to the next lower whole value, or the floor value
+It can accept double and float
+It can return either double or float
+Example-
+2.3  becomes 2.0
+-2.3 becomes -3.0 
+2.5  becomes 2.0 
+-2.5 becomes -3.0 //This considers that -3 is lesser than -2, it recognises the negative sign
+2.7  becomes 2.0
+-2.7 becomes -3.0
+-0.1 becomes 0.0
+-0.0 becomes 0.0
+
+------------------------------------------------------------------------------
+
+Some other math functions are- 
+Math.sqrt(x), which has 1 operand and returns = √x (double)
+Math.cbrt(x), which has 1 operand and returns = 3√x (Cube root) (double)
+Math.pow(x, y), which has 2 operands and returns = x^y (double)
+Math.min(x, y), which has 2 operands and returns = x or y depending on which one is lesser (Depends on datatype of x and y)
+Math.max(x, y), which has 2 operands and returns = x or y depending on which one is greater (Depends on datatype of x and y)
+Math.abs(x), which has 1 operand and returns = The absolute value of x, that is without any decimals (int, double, long or float)
+Math.avg(x, y), which has 2 operands and returns = (x+y)/2 (double)
