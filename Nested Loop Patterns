@@ -122,3 +122,71 @@
             System.out.println();
             k+=2;
         }
+
+-----------------------------------------------------------------------
+
+     *
+    * *
+   *   *
+  *     *
+ *********
+ 
+        int i, j, row = 5, k = 1, w;        
+        for (i=0; i<row; i++)   
+        {
+            for(w=i;w<row;w++)
+            {
+                System.out.print(" ");
+            }
+            for (j=1; j<=k;j++)   
+            {   
+                if(j == 1 || j == k)
+                {
+                    System.out.print("*");
+                }
+                else if(i == row-1)
+                {
+                    System.out.print("*");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            } 
+            System.out.println();
+            k+=2;
+        }
+        
+-----------------------------------------------------------------------
+
+*********
+ *     *
+  *   *
+   * *
+    *
+    
+        int i, j, k=5, w;        
+        for (i=0; i<n; i++)   
+        {
+            for(w=0;w<i;w++)
+            {
+                System.out.print(" ");
+            }
+            for (j=0; j<((2*k)-1);j++)   
+            {   
+                if(i == 0)
+                {
+                    System.out.print("*");
+                }
+                else if(j == 0 || j == (2*k)-2)
+                {
+                    System.out.print("*");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            } 
+            System.out.println();
+            k--;
+        }
