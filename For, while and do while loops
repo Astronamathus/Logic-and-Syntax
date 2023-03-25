@@ -1,0 +1,57 @@
+For loop (Entry Controlled)-
+
+for(intialisation; condition; update)
+{
+  .
+  .
+  .
+}
+
+Example - Print numbers from 1 to 20
+
+for(int i = 1; i <= 20; i++)
+{
+  System.out.println(i);
+}
+
+---------------------------------------------------------------------------------
+
+While loop (Entry controlled)-
+
+while(condition)
+{
+  .
+  .
+  .
+}
+
+Example- Print numbers from 1 to 20
+
+int i = 1;
+while(i <= 20)
+{
+  System.out.println(i);
+  i++;
+}
+
+---------------------------------------------------------------------------------
+
+Do-While loop (Exit controlled)-
+
+do
+{
+  .
+  .
+  .
+}
+while(condition)
+
+Example- Print numbers from 1 to 20
+
+int i = 1;
+do
+{
+  System.out.println(i);
+  i++;
+}
+while(i <= 20)
